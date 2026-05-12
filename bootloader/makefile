@@ -8,6 +8,7 @@ build:
 run:
 	$(vm) -hda $(out) -boot c
 
+
 all: build run
 
 clean: $(out)
