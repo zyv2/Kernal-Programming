@@ -55,8 +55,20 @@ _Boot signature_ = 0x55 0xaa (care about endianess)
 0x000F0000 - 0x000FFFFF - System BIOS
 ```
 
+### Dealing with keyboard presses
+we introduce the 0x16 interrupt that have functions that can deal with keyboard inputs.
+(AH)0x00
+
+
+### Reached the limit
+Seems like i consumed my 510 bytes....time for an upgrade
+
+
 ## Resources
-https://en.wikipedia.org/wiki/BIOS_interrupt_call
-https://en.wikipedia.org/wiki/Master_boot_record
-https://wiki.osdev.org/Tutorials
-Linux Kernel Development 3rd Edition
+- https://en.wikipedia.org/wiki/Master_boot_record
+- https://wiki.osdev.org/Tutorials
+- https://en.wikipedia.org/wiki/BIOS_interrupt_call
+- https://en.wikipedia.org/wiki/INT_16H
+- https://github.com/berkus/odin/blob/master/boot/boot.asm
+- 
+- Linux Kernel Development 3rd Edition
